@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.shiftstudios.mediascan"
+    android:versionCode="2"
+    android:versionName="1.1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="1"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="Media Scan">
+        <activity
+            android:name="net.shiftstudios.mediascan.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
